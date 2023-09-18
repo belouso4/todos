@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: #E30808;
-  --secondary-color: #e3e3e3;
+  --secondary-color: #b8b8b8;
   --light-color: #f0f0f0;
   --reverse-color: #ffffff;
   --default-color: #000000;
@@ -45,6 +45,7 @@ button {
   padding: 0.8rem 1rem;
   color: var(--reverse-color);
   background-color: var(--primary-color);
+  cursor: pointer;
 }
 
 .button--primary:hover {
@@ -131,6 +132,7 @@ button {
 
 .toggle-group .button {
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .toggle-group .button:not(.button--primary):hover {
@@ -239,6 +241,7 @@ button {
   border: 0.1rem solid var(--light-color);
   border-radius: 1.6rem;
   transition: box-shadow 0.2s;
+  cursor: pointer;
 }
 
 .add-todo__show-form-button:hover {

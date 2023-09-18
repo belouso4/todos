@@ -13,9 +13,9 @@
         <i class="bi bi-x"></i>
       </button>
       <div class="text-input text-input--focus">
-        <input v-model="todoText" class="input" />
+        <input v-model="todoText" class="input" placeholder="Enter a task..."/>
       </div>
-      <button class="button button--filled">Add task</button>
+      <button class="button button--filled" :disabled="!todoText">Add task</button>
     </form>
     <button
       v-else
